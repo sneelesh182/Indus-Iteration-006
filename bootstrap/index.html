@@ -1,13 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-    
-</body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+      .card-text1 {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: left;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+      }
+      .bg {
+        display: inline-block;
+        overflow-x: auto;
+        white-space: nowrap;
+        object-fit: cover;
+        clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
+      }
+      .box {
+        clip-path: polygon(0 0, 0 100%, 100% 94%, 100% 0);
+      }
+      .cards {
+        clip-path: polygon(0 0, 0 100%, 100% 92%, 150% 0);
+      }
+      .btn:hover {
+        transform: translateY(-7px);
+      }
+      .hov:hover {
+        color: red;
+        cursor: pointer;
+      }
+      .fontsize {
+        font-size: 13px;
+      }
+      .btn1 {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        box-sizing: border-box;
+        padding: 15px;
+      }
+      .card1 {
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .cards1 {
+        top: 220px;
+        left: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="position-relative">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-black box bgimg d-flex">
+            <div class="container text-white d-flex align-items-center">
+              <div
+                class="card card1 mx-auto me-3 border-0 bg-transparent z-1"
+                style="width: 18rem"
+              >
+                <div class="card-body text-white mb-5">
+                  <p class="card-text text-nowrap">ON SALE 5/8</p>
+                  <h2 class="card-text fs-1 mb-2 text-nowrap">
+                    NEW COMIC THIS WEEK
+                  </h2>
+                  <p class="card-text fontsize text-nowrap">
+                    Check out the newest Marvel comics coming out this week!
+                  </p>
+                  <button class="btn1">RELEASE CALENDAR</button>
+                </div>
+              </div>
+            </div>
+            <img
+              style="width: 100%; height: 30vh"
+              src="https://cdn.marvel.com/content/1x/new_com_bloodhunt_set_01.jpg"
+              class="img-fluid bg"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <div
+          class="card-group container mx-auto text-start cards1 position-absolute pt-3 px-0"
+        >
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/6630066d8e09c/portrait_uncanny.jpg"
+                class="card-img-top btn p-0 mb-2"
+                alt="..."
+              />
+
+              <p class="card-text1 hov fw-bold mb-1">Avengers (2023) #14</p>
+              <p class="card-text1 text-secondary fst-normal">2024</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="https://cdn.marvel.com/u/prod/marvel/i/mg/1/10/66300665977de/portrait_uncanny.jpg"
+                class="card-img-top btn p-0 mb-2"
+                alt="..."
+              />
+              <p class="card-text1 hov fw-bold mb-1">Blood Hunters (2024) #1</p>
+              <p class="card-text1 text-secondary">2024</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="https://cdn.marvel.com/u/prod/marvel/i/mg/f/e0/663006451cc17/portrait_uncanny.jpg"
+                class="card-img-top btn p-0 mb-2"
+                alt="..."
+              />
+              <p class="card-text1 hov fw-bold mb-1">
+                Doctor Strange (2023) #15
+              </p>
+              <p class="card-text1 text-secondary">2024</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/00/66300652cd82b/portrait_uncanny.jpg"
+                class="card-img-top mb-2 btn p-0"
+                alt="..."
+              />
+              <p class="card-text1 hov fw-bold mb-1">
+                Dracula: Blood Hunt (2024) #1
+              </p>
+              <p class="card-text1 text-secondary">2024</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="https://cdn.marvel.com/u/prod/marvel/i/mg/2/d0/6630063c006fe/portrait_uncanny.jpg"
+                class="card-img-top btn p-0 mb-2"
+                alt="..."
+              />
+              <p class="card-text1 hov fw-bold mb-1">
+                Strange Academy: Blood Hunt (2024) #1
+              </p>
+              <p class="card-text1 text-secondary">2024</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/03/6630068109cf2/portrait_uncanny.jpg"
+                class="card-img-top mb-2 btn p-0"
+                alt="..."
+              />
+              <p class="card-text1 hov fw-bold mb-1">
+                The Amazing Spider-Man (2022) #49
+              </p>
+              <p class="card-text1 text-secondary">2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
