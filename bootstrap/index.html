@@ -84,58 +84,92 @@
       height: 33px;
       font-size: 14px;
       width: 161px;
-      background-color: aqua;
+      background-color: white;
       padding: 20px 30px 20px 0;
-      border: solid black;
       box-sizing: content-box;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
 
+    }
+
+    .n-btn {
+      position: relative;
+      top: -50px;
+      z-index: 1;
+    }
+
+    .n-btn-icons {
+      position: relative;
+      left: 50px;
+      top: -10px;
+      cursor: pointer;
+    }
+    .n-btn-icons i {
+            opacity: 0.5; 
+            transition: opacity 0.3s;
+            cursor: pointer;
+        }
+
+    .n-btn-icons i:hover {
+      opacity: 1;
+      
     }
 
     /* soumya end */
 
     /* neelesh start */
     @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-      .card-text1 {
-        font-size: 13px;
-        font-weight: 400;
-        text-align: left;
-        font-family: "Roboto", sans-serif;
-        font-weight: bold;
-      }
-      .bg {
-        display: inline-block;
-        overflow-x: auto;
-        white-space: nowrap;
-        object-fit: cover;
-        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
-      }
-      .box {
-        clip-path: polygon(0 0, 0 100%, 100% 94%, 100% 0);
-      }
-      .btn:hover {
-        transform: translateY(-7px);
-      }
-      .hov:hover {
-        color: red;
-        cursor: pointer;
-      }
-      .fontsize {
-        font-size: 13px;
-      }
-      .btn1 {
-        background-color: transparent;
-        color: white;
-        border: 2px solid white;
-        box-sizing: border-box;
-        padding: 15px;
-      }
-      .card1 {
-        font-family: "Roboto Condensed", sans-serif;
-      }
-      .cards1 {
-        top: -40px;
-      }
+    @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+    .card-text1 {
+      font-size: 13px;
+      font-weight: 400;
+      text-align: left;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+    }
+
+    .bg {
+      display: inline-block;
+      overflow-x: auto;
+      white-space: nowrap;
+      object-fit: cover;
+      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    }
+
+    .box {
+      clip-path: polygon(0 0, 0 100%, 100% 94%, 100% 0);
+    }
+
+    .btn:hover {
+      transform: translateY(-7px);
+    }
+
+    .hov:hover {
+      color: red;
+      cursor: pointer;
+    }
+
+    .fontsize {
+      font-size: 13px;
+    }
+
+    .btn1 {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      box-sizing: border-box;
+      padding: 15px;
+    }
+
+    .card1 {
+      font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .cards1 {
+      top: -40px;
+    }
+
     /* neelesh end */
 
 
@@ -364,11 +398,13 @@
     </div>
   </div>
   <div class="nav-btns">
-    <div>'Deadpool & Wolverine' Trailer & Posters</div>
-    <div>'Deadpool & Wolverine' Trailer & Posters</div>
-    <div>'Deadpool & Wolverine' Trailer & Posters</div>
-    <div>'Deadpool & Wolverine' Trailer & Posters</div>
-    <div class="justify-content-around" style="width:165px; height:22px; display:flex; justify-content:center;"><i
+    <div class="n-btn" style="padding-left: 20px;">'Deadpool & Wolverine' Trailer & Posters</div>
+    <div class="n-btn">'X-Men '97' Now Streaming on Disney+</div>
+    <div class="n-btn">This Week's New <br>Comics</div>
+    <div class="n-btn">Free Infinity Comics</div>
+    <div class="n-btn">'Marvel Rivals' Announcement Trailer</div>
+    <div class="justify-content-around n-btn-icons"
+      style="width:165px; height:22px; display:flex; justify-content:center; font-size: 25px; gap: 20px;"><i
         class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-x-twitter"></i><i
         class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-twitch"></i><i class="fa-brands fa-tiktok"></i>
     </div>
@@ -534,10 +570,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active bg-black box bgimg d-flex">
         <div class="container text-white d-flex align-items-center">
-          <div
-            class="card card1 mx-auto me-3 border-0 bg-transparent z-1"
-            style="width: 18rem"
-          >
+          <div class="card card1 mx-auto me-3 border-0 bg-transparent z-1" style="width: 18rem">
             <div class="card-body text-white mb-5">
               <p class="card-text text-nowrap">ON SALE 5/8</p>
               <h2 class="card-text fs-1 mb-2 text-nowrap">
@@ -550,25 +583,16 @@
             </div>
           </div>
         </div>
-        <img
-          style="width: 100%; height: 40vh"
-          src="https://cdn.marvel.com/content/1x/new_com_bloodhunt_set_01.jpg"
-          class="img-fluid bg"
-          alt="..."
-        />
+        <img style="width: 100%; height: 40vh" src="https://cdn.marvel.com/content/1x/new_com_bloodhunt_set_01.jpg"
+          class="img-fluid bg" alt="..." />
       </div>
     </div>
   </div>
-  <div
-    class="card-group container mx-auto text-start cards1 position-relative pt-3 px-0"
-  >
+  <div class="card-group container mx-auto text-start cards1 position-relative pt-3 px-0">
     <div class="card border-0">
       <div class="card-body">
-        <img
-          src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/6630066d8e09c/portrait_uncanny.jpg"
-          class="card-img-top btn p-0 mb-2"
-          alt="..."
-        />
+        <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/6630066d8e09c/portrait_uncanny.jpg"
+          class="card-img-top btn p-0 mb-2" alt="..." />
 
         <p class="card-text1 hov fw-bold mb-1">Avengers (2023) #14</p>
         <p class="card-text1 text-secondary fst-normal">2024</p>
@@ -576,33 +600,24 @@
     </div>
     <div class="card border-0">
       <div class="card-body">
-        <img
-          src="https://cdn.marvel.com/u/prod/marvel/i/mg/1/10/66300665977de/portrait_uncanny.jpg"
-          class="card-img-top btn p-0 mb-2"
-          alt="..."
-        />
+        <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/1/10/66300665977de/portrait_uncanny.jpg"
+          class="card-img-top btn p-0 mb-2" alt="..." />
         <p class="card-text1 hov fw-bold mb-1">Blood Hunters (2024) #1</p>
         <p class="card-text1 text-secondary">2024</p>
       </div>
     </div>
     <div class="card border-0">
       <div class="card-body">
-        <img
-          src="https://cdn.marvel.com/u/prod/marvel/i/mg/f/e0/663006451cc17/portrait_uncanny.jpg"
-          class="card-img-top btn p-0 mb-2"
-          alt="..."
-        />
+        <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/f/e0/663006451cc17/portrait_uncanny.jpg"
+          class="card-img-top btn p-0 mb-2" alt="..." />
         <p class="card-text1 hov fw-bold mb-1">Doctor Strange (2023) #15</p>
         <p class="card-text1 text-secondary">2024</p>
       </div>
     </div>
     <div class="card border-0">
       <div class="card-body">
-        <img
-          src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/00/66300652cd82b/portrait_uncanny.jpg"
-          class="card-img-top mb-2 btn p-0"
-          alt="..."
-        />
+        <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/00/66300652cd82b/portrait_uncanny.jpg"
+          class="card-img-top mb-2 btn p-0" alt="..." />
         <p class="card-text1 hov fw-bold mb-1">
           Dracula: Blood Hunt (2024) #1
         </p>
@@ -611,11 +626,8 @@
     </div>
     <div class="card border-0">
       <div class="card-body">
-        <img
-          src="https://cdn.marvel.com/u/prod/marvel/i/mg/2/d0/6630063c006fe/portrait_uncanny.jpg"
-          class="card-img-top btn p-0 mb-2"
-          alt="..."
-        />
+        <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/2/d0/6630063c006fe/portrait_uncanny.jpg"
+          class="card-img-top btn p-0 mb-2" alt="..." />
         <p class="card-text1 hov fw-bold mb-1">
           Strange Academy: Blood Hunt (2024) #1
         </p>
@@ -624,11 +636,8 @@
     </div>
     <div class="card border-0">
       <div class="card-body">
-        <img
-          src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/03/6630068109cf2/portrait_uncanny.jpg"
-          class="card-img-top mb-2 btn p-0"
-          alt="..."
-        />
+        <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/03/6630068109cf2/portrait_uncanny.jpg"
+          class="card-img-top mb-2 btn p-0" alt="..." />
         <p class="card-text1 hov fw-bold mb-1">
           The Amazing Spider-Man (2022) #49
         </p>
