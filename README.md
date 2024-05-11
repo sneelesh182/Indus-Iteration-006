@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a collaborative project done during a span of five days from 10 May 2024 to 11 May 2024. This project serves as a showcase of the skills we've acquired through past learning experiences.This Project has two sections
+This is a collaborative project done during a span of five days from 7 May 2024 to 11 May 2024. This project serves as a showcase of the skills we've acquired through past learning experiences.This Project has two sections
 1. Cloning Marvel Website 
 2. Redering a Figma Design
 
@@ -47,12 +47,12 @@ Frontend: https://www.netlify.com
 
 ## Video Walkthrough of the project
 
-a very short video walkthough of all of the features [ 1 - 3 minutes ]
+a very short video walkthough of all of the features [ 1 - 3 minutes ]:
 
 
 ## Video Walkthrough of the codebase
 
-Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
+a very short video walkthough of codebase [ 1 - 5 minutes ]:
 
 ## Features
 List out the key features of your application.
@@ -76,8 +76,6 @@ List out the key features of your application.
 ````npm install bootstrap@5.3.3````
 Refer https://getbootstrap.com/docs/5.3/getting-started/download/ for further details.
 
-## Credentials
-Provide user credentials for autheticated pages
 
 
 ## Technology Stack
