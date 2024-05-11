@@ -25,12 +25,14 @@ Frontend: https://www.netlify.com
 
 ## Directory Structure
 
-my-app/
-├─ bootstrap/
-|  ├─ assets
+Indus-Iteration-006/
+|-- bootstrap/
+|   |-- assets/
 |
-├─ figma/
-│  ├─ assets
+|-- figma/
+|   |-- assets/
+/ 
+
 
 ## Video Walkthrough of the project
 
