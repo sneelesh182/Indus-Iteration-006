@@ -25,13 +25,24 @@ Frontend: https://www.netlify.com
 
 ## Directory Structure
 
-Indus-Iteration-006/
-|-- bootstrap/
-|   |-- assets/
-|
-|-- figma/
-|   |-- assets/
-/ 
+* [bootstrap/](./Indus-Iteration-006/bootstrap)
+  * [assets/](./Indus-Iteration-006/bootstrap/assets)
+  * [node_modules/](./Indus-Iteration-006/bootstrap/node_modules)
+  * [.gitignore](./Indus-Iteration-006/bootstrap/.gitignore)
+  * [index.html](./Indus-Iteration-006/bootstrap/index.html)
+  * [package-lock.json](./Indus-Iteration-006/bootstrap/package-lock.json)
+  * [package.json](./Indus-Iteration-006/bootstrap/package.json)
+* [figma/](./Indus-Iteration-006/figma)
+  * [assets/](./Indus-Iteration-006/figma/assets)
+  * [node_modules/](./Indus-Iteration-006/figma/node_modules)
+  * [.gitignore](./Indus-Iteration-006/figma/.gitignore)
+  * [index1.html](./Indus-Iteration-006/figma/index1.html)
+  * [package-lock.json](./Indus-Iteration-006/figma/package-lock.json)
+  * [package.json](./Indus-Iteration-006/figma/package.json)
+  * [styles.css](./Indus-Iteration-006/figma/styles.css)
+  * [styles.css.map](./Indus-Iteration-006/figma/styles.css.map)
+  * [styles.scss](./Indus-Iteration-006/figma/styles.scss)
+* [README.md](./Indus-Iteration-006/README.md)
 
 
 ## Video Walkthrough of the project
