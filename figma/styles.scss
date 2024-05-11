@@ -1,5 +1,347 @@
-
 // soumya start
+div.container1 {
+    width: 1860px;
+    height: 854px;
+    top: 30px;
+    left: 30px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background-image: url(./assets/Headerbackground.svg);
+
+    >div.header {
+        width: 1920px;
+        height: 89px;
+        top: 30px;
+        padding: 0px 300px 1px 300px;
+        gap: 0px;
+        border: 0px 0px 1px 0px;
+        opacity: 0px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+        >div.header-container {
+            width: 1320px;
+            height: 88px;
+            left: 300px;
+            padding: 21.94px 15px 21.94px 15px;
+            gap: 0px;
+            opacity: 0px;
+            display: flex;
+            justify-content: space-between;
+
+            >div.logo-section {
+                width: 808.84px;
+                height: 44.12px;
+                top: 21.94px;
+                left: 15px;
+                gap: 0px;
+                opacity: 0px;
+                display: flex;
+                justify-content: center;
+
+                >div.logo {
+                    width: 167px;
+                    height: 32px;
+                    top: 6.06px;
+                    gap: 0px;
+                    opacity: 0px;
+                }
+
+                >div.nav-text {
+                    width: 641.84px;
+                    height: 44.12px;
+                    left: 167px;
+                    gap: 0px;
+                    opacity: 0px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    >div:nth-of-type(1) {
+                        width: 41.39px;
+                        height: 24px;
+                        position: relative;
+                        top: 8px;
+                        left: 50px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14.77px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: rgba(235, 102, 43, 1);
+
+                    }
+
+                    >div:nth-of-type(2) {
+                        width: 30.57px;
+                        height: 24px;
+                        position: relative;
+                        top: 8px;
+                        left: 59px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14.41px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: rgba(255, 255, 255, 1);
+
+                    }
+
+                    >div:nth-of-type(3) {
+                        width: 79.38px;
+                        height: 24px;
+                        position: relative;
+                        top: 8px;
+                        left: 40px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14.77px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: white;
+                    }
+
+                    >div:nth-of-type(4) {
+                        width: 64.77px;
+                        height: 24px;
+                        top: 8px;
+                        left: 39.7px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14.88px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: white;
+                        position: relative;
+                    }
+
+                    >div:nth-of-type(5) {
+                        width: 41.04px;
+                        height: 24px;
+                        top: 8px;
+                        left: 39.68px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14.06px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: white;
+                        position: relative;
+                    }
+
+                    >div:nth-of-type(6) {
+                        width: 56.9px;
+                        height: 24px;
+                        top: 8px;
+                        left: 39.8px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: white;
+                        position: relative;
+                    }
+
+                }
+
+            }
+
+            >div.header-right {
+                width: 328.44px;
+                height: 44px;
+                top: 22px;
+                left: 976.56px;
+                gap: 0px;
+                opacity: 0px;
+                display: flex;
+                justify-content: center;
+
+                >div.usd {
+                    width: 91.86px;
+                    height: 42.12px;
+                    top: 0.94px;
+                    padding: 11px 19.8px 11.12px 20px;
+                    gap: 0px;
+                    border-radius: 200px 0px 0px 0px;
+                    opacity: 0px;
+
+                    >div:nth-of-type(1) {
+                        width: 29.06px;
+                        height: 20px;
+                        top: 11px;
+                        left: 20px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 13.83px;
+                        font-weight: 400;
+                        line-height: 28.13px;
+                        text-align: left;
+                        color: white;
+
+                    }
+
+                }
+
+                >div:nth-of-type(2) {
+                    width: 51.63px;
+                    height: 24px;
+                    top: 7.94px;
+                    left: -30px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: "Inter", sans-serif;
+                    font-size: 14.53px;
+                    font-weight: 400;
+                    line-height: 28.13px;
+                    text-align: left;
+                    color: white;
+                    position: relative;
+                }
+
+                >div:nth-of-type(3) {
+                    width: 18px;
+                    height: 18px;
+                    top: 1px;
+                    margin-left: 10px;
+                    padding: 12px 11.8px 12px 12px;
+                    gap: 0px;
+                    border-radius: 200px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border: 1px solid rgba(255, 255, 255, 1)
+                }
+
+                >button {
+                    width: 83.31px;
+                    height: 44px;
+                    position: relative;
+                    left: 0px;
+                    padding: 12px 20.8px 12px 21px;
+                    gap: 0px;
+                    border-radius: 200px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border: 1px solid rgba(255, 255, 255, 1)
+                }
+
+            }
+
+        }
+    }
+
+    div.direction {
+        width: 409.98px;
+        height: 166.05px;
+        position: absolute;
+        top: 378.97px;
+        left: 1195.02px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    div.main-content {
+        width: 769.98px;
+        height: 340px;
+        position: absolute;
+        top: 272px;
+        left: 300px;
+        gap: 0px;
+        opacity: 0px;
+
+        >div:nth-of-type(1) {
+            width: 135.97px;
+            height: 33.75px;
+            left: 15px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: "Inter", sans-serif;
+            font-size: 17.44px;
+            font-weight: 500;
+            line-height: 33.75px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+        >div:nth-of-type(2) {
+            width: 663.61px;
+            height: 175px;
+            top: 39.75px;
+            left: 15px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: "Inter", sans-serif;
+            font-size: 70px;
+            font-weight: 600;
+            line-height: 84px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+        >div:nth-of-type(3) {
+            width: 425.75px;
+            height: 48.13px;
+            top: 225.75px;
+            left: 15px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: "Inter", sans-serif;
+            font-size: 14.65px;
+            font-weight: 400;
+            line-height: 28.13px;
+            text-align: left;
+            color: white;
+        }
+
+        >div:nth-of-type(4) {
+            width: 165.66px;
+            height: 62px;
+            top: 278px;
+            left: 15px;
+            padding: 21px 35.8px 21px 36px;
+            gap: 0px;
+
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+
+
+            >div:nth-of-type(1) {
+                font-family: "Inter", sans-serif;
+                font-size: 14.3px;
+                font-weight: 500;
+                line-height: 28px;
+                text-align: center;
+                width: 68.86px;
+                height: 20px;
+                top: 21px;
+                left: 36px;
+                gap: 0px;
+                opacity: 0px;
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 1);
+                padding: 21px 35.8px 21px 36px;
+                border-radius: 12px;
+            }
+
+        }
+    }
+
+}
 
 //  soumya end
 
@@ -16,6 +358,302 @@
 //  neelesh end
 
 //  soumya start
+div.blue-container {
+    width: 1860px;
+    height: 774.75px;
+    position: relative;
+    top: 5022.45px;
+    left: 30px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: rgba(5, 7, 60, 1);
+
+    >div.blue-container-main {
+        width: 1320px;
+        height: 609.75px;
+        position: absolute;
+        top: 75px;
+        left: 270px;
+        gap: 0px;
+        opacity: 0px;
+
+
+        >div.traveler-saying {
+            width: 550px;
+            height: 281.25px;
+            position: relative;
+            top: 95.5px;
+            gap: 0px;
+            opacity: 0px;
+
+            >div:nth-of-type(1) {
+                width: 277.4px;
+                height: 84px;
+                top: 18px;
+                left: 15px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: "Inter", sans-serif;
+                font-size: 29.77px;
+                font-weight: 700;
+                line-height: 45px;
+                text-align: left;
+                color: white;
+
+
+            }
+
+            >div:nth-of-type(2) {
+                width: 280px;
+                height: 161.25px;
+                top: 120px;
+                left: -5px;
+                // padding: 15px 53.5px 19.12px 20px;
+                // gap: 0px;
+                // opacity: 0px;
+
+
+                >div:nth-of-type(1) {
+                    width: 61.58px;
+                    height: 75px;
+                    top: 15px;
+                    left: 20px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: "Inter", sans-serif;
+                    font-size: 38.59px;
+                    font-weight: 700;
+                    line-height: 75px;
+                    text-align: left;
+                    color: white;
+
+                }
+
+                >div:nth-of-type(2) {
+                    width: 206.5px;
+                    height: 48.13px;
+                    top: 94px;
+                    left: 20px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: "Inter", sans-serif;
+                    font-size: 14.41px;
+                    font-weight: 400;
+                    line-height: 28.13px;
+                    text-align: left;
+                    color: white;
+                }
+
+            }
+
+            >div:nth-of-type(3) {
+                width: 280px;
+                height: 161.25px;
+                position: absolute;
+                top: 90px;
+                left: 275px;
+                // padding: 15px 137px 43.12px 20px;
+                // gap: 0px;
+                // opacity: 0px;
+
+
+                >div:nth-of-type(1) {
+                    font-family: "Inter", sans-serif;
+                    font-size: 36.56px;
+                    font-weight: 700;
+                    line-height: 75px;
+                    text-align: left;
+                    width: 75.58px;
+                    height: 75px;
+                    top: 15px;
+                    left: 20px;
+                    gap: 0px;
+                    opacity: 0px;
+                    color: white;
+
+                }
+
+                >div:nth-of-type(2) {
+                    width: 123px;
+                    height: 28.13px;
+                    top: 90px;
+                    left: 20px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: "Inter", sans-serif;
+                    font-size: 14.77px;
+                    font-weight: 400;
+                    line-height: 28.13px;
+                    text-align: left;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        >div.trusty {
+            width: 261.56px;
+            height: 22.5px;
+            position: absolute;
+            top: 517.25px;
+            left: 529.31px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: "Inter", sans-serif;
+            font-size: 14.53px;
+            font-weight: 400;
+            line-height: 22.5px;
+            text-align: center;
+            color: white;
+           
+        }
+
+        >div.company {
+            width: 1290px;
+            height: 30px;
+            position: absolute;
+            top: 579.75px;
+            left: 15px;
+            gap: 0px;
+            opacity: 0px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        >div.great-work-container {
+            border-radius: 24px;
+            width: 520px;
+            height: 342.25px;
+            position: absolute;
+            top: 15px;
+            left: 785px;
+            gap: 0px;
+            opacity: 0px;
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
+            
+
+            >div:nth-of-type(1) {
+                width: 96.61px;
+                height: 33.75px;
+                position: absolute;
+                top: 50px;
+                left: 40px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: "Inter", sans-serif;
+                font-size: 17.86px;
+                font-weight: 500;
+                line-height: 33.75px;
+                text-align: left;
+                color: rgba(235, 102, 43, 1);
+
+            }
+
+            >div:nth-of-type(2) {
+                width: 417.23px;
+                height: 104.38px;
+                position: absolute;
+                top: 102.75px;
+                left: 40px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: "Inter", sans-serif;
+                font-size: 14.88px;
+                font-weight: 500;
+                line-height: 28.13px;
+                text-align: left;
+
+            }
+
+            >div:nth-of-type(3) {
+                width: 440px;
+                height: 81px;
+                position: absolute;
+                top: 231.25px;
+                left: 40px;
+                // padding: 21px 240.33px 0px 0px;
+                gap: 0px;
+                border: 1px 0px 0px 0px;
+                opacity: 0px;
+                border-top: 1px solid rgba(231, 230, 230, 1);
+
+                >img {
+                    width: 60px;
+                    height: 60px;
+                    top: 21px;
+                    gap: 0px;
+                    opacity: 0px;
+                    position: absolute;
+
+                }
+
+                >div:nth-of-type(1) {
+                    width: 119.67px;
+                    height: 49.59px;
+                    top: 26.21px;
+                    position: absolute;
+                    left: 80px;
+                    padding: 2px 0px 0px 0px;
+                    gap: 0px;
+                    opacity: 0px;
+
+
+                    >div:nth-of-type(1) {
+                        width: 119.87px;
+                        height: 21px;
+                        top: 2px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 15.63px;
+                        font-weight: 500;
+                        line-height: 25.6px;
+                        text-align: left;
+                        color: rgba(5, 7, 60, 1);
+
+                    }
+
+                    >div:nth-of-type(2) {
+                        width: 96.89px;
+                        height: 24px;
+                        top: 25.59px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14.65px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: left;
+                        color: rgba(5, 7, 60, 1);
+                    }
+
+                }
+            }
+
+            >div:nth-of-type(4) {
+                width: 37px;
+                height: 26px;
+                position: absolute;
+                top: 54.99px;
+                left: 443px;
+                padding: 0px 0.2px 0.2px 0px;
+                gap: 0px;
+                opacity: 0px;
+
+
+            }
+
+
+        }
+
+
+    }
+
+}
 
 //  soumya end
 
