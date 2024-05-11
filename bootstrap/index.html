@@ -197,7 +197,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
    
 .container {
-  margin-right: ;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .latest {
   display: flex;
@@ -213,7 +214,7 @@
 }
 .left-div {
   background-color: white;
-  padding: 30px;
+  padding-right: 40px;
   width: 70%;
   box-sizing: content-box;
 }
@@ -225,16 +226,20 @@
   }
 .left-div-images {
   width: 100%;
-  background-color: rgb(110, 110, 79);
+  /* background-color: rgb(110, 110, 79); */
 }
 .title-div {
-  /* padding: 30px ; */
-  background-color: white;
+  padding: 30px ;
+  /* background-color: rgb(189, 152, 152); */
   width: 600px;
+  height: auto;
   font-size: 14px;
   padding: 0px 20px 10px 25px;
   margin-left: 0px;
   color: #212121;
+}
+.title-div h2 {
+  font-size: 20px;
 }
 .title-div:hover{
    color: red;
@@ -263,8 +268,8 @@
    font-size: 14px;
 }
 .hr {
-  margin-top: 17px;
-  margin-bottom: 17px;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 /* common end */
@@ -272,9 +277,10 @@
 
 .right-div {
   background-color: white;
-  width: 20%;
+  width: 27%;
   height: 900px;
-  padding: 30px;
+  /* padding: 30px 0px 30px 30px; */
+  padding-left: 55px;
   margin-top: 50px;
  
 }
@@ -282,18 +288,25 @@
 .right-card {
   display: flex;
   background-color: white;
+  /* padding: 24px 0px; */
+  margin: 0px ;
+}
+.right-image-div{
+  width: 100px;
 }
 .right-image-div:hover {
   opacity: 0.9;
 }
 .right-div-images {
-  width: 100px;
+ width: 100%;
+  height: 45px;
 }
 .title-div-right {
   padding: 0px 0px 10px 20px;
-  height: 130px;
-  width: 160px;
+  height: 90px;
+  width: 220px;
   color: #404040 ;
+  /* background-color: #74bb8d; */
 }
 
 .title-div-right:hover{
@@ -303,6 +316,9 @@
 .title {
   margin-top: 5px;
   font-size: 14px;
+}
+.right-div hr{
+    opacity:0.1 ;
 }
 
 
@@ -814,8 +830,8 @@
       </div>
 
       <!-- RIGHT DIV START -->
-      <div class="right-div hype-box" style="padding-right: 30px;">
-        <h1 style="text-align: center;">THE HYPE BOX</h1>
+      <div class="right-div hype-box" >
+        <h1 style=" text-align: center; font-size: 30px; letter-spacing: -1px;">THE HYPE BOX</h1>
         <p  style="text-align: center;">Can’t-miss news and updates from across the Marvel Universe!</p>
 
         <!-- Each right Card start 1 -->
@@ -829,7 +845,7 @@
             />
           </div>
           <div class="title-div-right">
-            <div style="background-color: white" class="tag">MOVIES</div>
+            <div class="tag">MOVIES</div>
             <h4 class="title">
               Marvel Studios Debuts New 'Deadpool & Wolverine' Trailer &
               Posters
@@ -842,7 +858,7 @@
         <div class="right-card">
           <div class="right-image-div">
             <img
-              class="right-div-images"
+              class="img-fluid right-div-images"
               src="https://cdn.marvel.com/content/1x/marvel-must-haves-20240419-x-men-97-midseason-article-card.jpg"
               alt="marvel_image"
             />
