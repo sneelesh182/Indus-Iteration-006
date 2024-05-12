@@ -332,17 +332,22 @@
       display: flex;
       justify-content: space-between;
       /* gap: 5vw; */
-      width: 100%;
+
     }
 
     .vedio_link>div:nth-of-type(1) {
       flex: 75%;
+      width: 100%;
+      max-height: 40vw;
+      min-height: 300px;
       margin-right: 2%;
-      background-color: antiquewhite;
+      background-color: white;
     }
 
-    .vedio_link iframe {
+    .vedio_link>div:nth-of-type(1)>iframe {
       width: 100%;
+      min-height: 300px;
+      max-height: 40vw;
     }
 
     .vedio_link iframe::-webkit-scrollbar {
@@ -376,7 +381,8 @@
       overflow-x: hidden;
       overflow-y: auto;
       width: 711px;
-      height: 400px;
+      height: 40vw;
+      max-height: 600px;
       flex: 25%;
       display: flex;
       flex-direction: column;
@@ -404,8 +410,6 @@
     .movie_list>div>img {
       width: 100%;
       height: 100%;
-      /* border: 1px solid black; */
-      /* margin-bottom: 20px; */
       box-sizing: border-box;
       opacity: 0.5;
       transition: opacity 0.3s ease;
@@ -413,6 +417,33 @@
 
     .movie_list>div>img:hover {
       opacity: 1;
+    }
+
+    @media screen and (max-width: 800px) {
+      .vedio_link>div {
+        flex:100%;
+        max-height: 300px;
+      }
+      .vedio_link>div>iframe{
+        height: 50vw;
+      }
+      .movie_list{
+        display: none;
+      }
+    }
+    @media  (max-width: 550px) {
+      .vedio_link>div {
+        max-height: 200px;
+      }
+      .vedio_link>div>iframe{
+        height: 50vw;
+      }
+      .vedio-meta-data>div.title {
+        max-width: 400px;
+      }
+      .movie_list{
+        display: none;
+      }
     }
 
     /* everus end */
@@ -937,7 +968,7 @@
       <div>
         <iframe
           src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6351255690112&brand=marvel"
-          max_width="1000" height="400px" allowfullscreen frameborder="0" scrolling="no"></iframe>
+          max_width="1000" height="600px" allowfullscreen frameborder="0" scrolling="no"></iframe>
       </div>
 
 
