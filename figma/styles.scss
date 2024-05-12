@@ -348,7 +348,78 @@ div.container1 {
 //  soumya end
 
 //  ikbal start
+.container-ik{
+  display: flex;
+  justify-content: center;
+  width: 1920px;
+  height: 659px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 115px 254px 100px 300px;
 
+.trending-destinations{
+  font-family: Inter;
+  width: 1320px;
+  height: 444px;
+  gap: 0px;
+
+ .the-tours {
+  display: flex;
+   flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.each-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e6e6;
+  border-radius: 20px;
+  width: 300px;
+  height: 152px;
+  // background-color: yellow;
+   
+
+  .tour-text {
+      margin-left: 0px;
+    }
+    .tour-pic {
+      padding: 21px;
+      padding-right: 20px;
+    }
+}
+
+
+h4 {
+  margin-bottom: 0px;
+}
+p{
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 14.3px;
+  line-height: 28.13px;
+  
+}
+.text-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    >p{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      padding-right: 20px;
+    }
+    >h2{
+      margin-bottom: 40px;
+      padding-bottom: 0px;
+      color: #05073C;
+    }
+}
+
+}
+}
 //  ikbal end
 
 // everus start
