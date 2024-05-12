@@ -306,6 +306,70 @@ div.container1 div.main-content > div:nth-of-type(4) > div:nth-of-type(1) {
   border-radius: 12px;
 }
 
+.container-ik {
+  display: flex;
+  justify-content: center;
+  width: 1920px;
+  height: 659px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 115px 254px 100px 300px;
+}
+.container-ik .trending-destinations {
+  font-family: Inter;
+  width: 1320px;
+  height: 444px;
+  gap: 0px;
+}
+.container-ik .trending-destinations .the-tours {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.container-ik .trending-destinations .each-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e6e6;
+  border-radius: 20px;
+  width: 300px;
+  height: 152px;
+}
+.container-ik .trending-destinations .each-box .tour-text {
+  margin-left: 0px;
+}
+.container-ik .trending-destinations .each-box .tour-pic {
+  padding: 21px;
+  padding-right: 20px;
+}
+.container-ik .trending-destinations h4 {
+  margin-bottom: 0px;
+}
+.container-ik .trending-destinations p {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 14.3px;
+  line-height: 28.13px;
+}
+.container-ik .trending-destinations .text-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-ik .trending-destinations .text-div > p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+}
+.container-ik .trending-destinations .text-div > h2 {
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+  color: #05073C;
+}
+
 div.section3-container {
   max-width: 1920px;
   gap: 0px;
@@ -1285,4 +1349,6 @@ div.blue-container > div.blue-container-main > div.great-work-container > div:nt
   padding: 0px 0.2px 0.2px 0px;
   gap: 0px;
   opacity: 0px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
